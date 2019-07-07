@@ -34,7 +34,7 @@ namespace PrimeNumberGenerator
                 counter = 0;
                 int i;
 
-                for (i = 2; i <= number / 2; i++)
+                for (i = 2; i <= Math.Floor(Math.Sqrt(number)); i++)
                 {
                     if (number % i == 0)
                     {
